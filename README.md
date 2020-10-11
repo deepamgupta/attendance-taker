@@ -3,6 +3,8 @@ A python script which takes names of students present in class and provide their
 Currently it contains hard-coded list of students of CSA IET-DAVV 4th year.
 So, it can take attedance of only these fellas as of now.
 
+To get an idea, I have made a short 3 min video. You can watch the `Demo.mp4` clip. 
+
 The idea is that while taking any online class on any platform esp. Google meet, there are extensions which help to generate a list of names of students present in class. But at the end teacher needs to make the entries in a spreadsheet. This process becomes redundant and cumbersome. 
 
 This app will take the names of student present in class and provide attendance on form of 'P's roll no. wise:
