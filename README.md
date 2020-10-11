@@ -7,7 +7,7 @@ Pre-requisite to use the "CSA_Attendance_Taker_App":
 1. Use must have a Linux system.
 2. You need to have list of students of my class.(Can take it from me)
 
-# How to operate it the app?
+# How to operate the app?
 
 1. Clone the repo.
 2. There is a folder CSA_Attendance_Taker_App, just open it.
