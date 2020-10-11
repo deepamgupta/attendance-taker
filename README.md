@@ -1,4 +1,4 @@
-# attendance-taker
+# Attendance Taker 
 A python script which takes names of students present in class and provide their attendance.
 Currently it contains hard-coded list of students of CSA IET-DAVV 4th year.
 So, it can take attedance only these fellas as of now.
