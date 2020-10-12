@@ -1,15 +1,18 @@
-def get_present_students_from_file(input_file_name):
-    f = open(input_file_name, 'r')
+import os
+
+
+def get_present_students_from_file(input_file_path):
+    f = open(input_file_path, 'r')
     present_students = f.readlines()
     f.close()
 
     for i in range(len(present_students)):
-        present_students[i] = present_students[i].strip().replace('\t', ' ')
+        present_students[i] = present_students[i].strip().replace('\t', ' ').upper()
 
     return present_students
 
 
-def eveluate_attendance(present_students_list):
+def evaluate_attendance(present_students_list):
     attendance = {
         "PARIJAT SINGH KUBREY": " ",
         "HARSH VARDHAN": " ",
@@ -97,28 +100,17 @@ def eveluate_attendance(present_students_list):
     return list(attendance.values())
 
 
-def print_attendance_to_file(output_file_name, attendance_list):
-    f = open(output_file_name, 'w')
+def print_attendance_to_file(output_file_path, attendance_list):
+    f = open(output_file_path, 'w')
     f.write('\n'.join(attendance_list))
     f.close()
 
 
 if __name__ == '__main__':
-    present_students_list = get_present_students_from_file('input.txt')
-    attendance_list = eveluate_attendance(present_students_list)
-    print_attendance_to_file('output.txt', attendance_list)
+    cur_dir = os.getcwd()
+    input_file_path = os.path.join(cur_dir, "input.txt")
+    output_file_path = os.path.join(cur_dir, "output.txt")
 
-
-# present_num = int(input("Enter students present_num : "))
-# present_student_list = []
-#
-# for i in range(present_num):
-#     student = input()
-#     present_student_list.append(student.replace('\t', ' '))
-#
-# for student in present_student_list:
-#     if student in attendance:
-#         attendance[student] = 'P'
-#
-# for val in attendance.values():
-#     print(val)
+    present_students_list = get_present_students_from_file(input_file_path)
+    attendance_list = evaluate_attendance(present_students_list)
+    print_attendance_to_file(output_file_path, attendance_list)
