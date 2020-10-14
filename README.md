@@ -38,15 +38,15 @@ Pre-requisite to use the "CSA_Attendance_Taker_App":
 
  - Now, there are two versions of the app - `v1 - strict` and `v2 - flexible` , both work differently.
 
-3. Make an `input.txt` file in the same directory.
+3. Make an `input.csv` file in the same directory.
 4. List down the name of students who were present in today's class.
 
- - for `strict` :  one student in each line in the input.txt file.
- - for `flexible` : no formatting required in the input.txt file, just the students who were present should be mentioned.
+ - for `strict` :  one student in each line in the input.csv file.
+ - for `flexible` : no formatting required in the input.csv file, just the students who were present should be mentioned.
 
 5. Double click the version, whichever you are using.
-6. An output.txt file will be automatically get generated.
+6. An output.csv file will be automatically get generated.
 
-The `output.txt` file contains the attendance of students ( `P` for present and `empty-line` for absent).
+The `output.csv` file contains the attendance of students ( `P` for present and `empty-line` for absent).
 
 Copy the content of whole file and use it in excel sheet😄
