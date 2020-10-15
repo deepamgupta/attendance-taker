@@ -104,8 +104,8 @@ def print_attendance_to_file(output_file_path, attendance_list):
 
 if __name__ == '__main__':
     cur_dir = os.getcwd()
-    input_file_path = os.path.join(cur_dir, "input.txt")
-    output_file_path = os.path.join(cur_dir, "output.txt")
+    input_file_path = os.path.join(cur_dir, "input.csv")
+    output_file_path = os.path.join(cur_dir, "output.csv")
 
     present_students_string = get_present_students_from_file(input_file_path)
     attendance_list = evaluate_attendance(present_students_string)
