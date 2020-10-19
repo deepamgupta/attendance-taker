@@ -85,7 +85,7 @@ def evaluate_attendance(present_students_list):
         "AYUSH KARMA": " ",
         "BHOOMIKA PANDEY": " ",
         "DISHA KHARE": " ",
-        "KAMINI SINGH CHAUHAN ": " ",
+        "KAMINI SINGH CHAUHAN": " ",
         "PRASHANT ARJARIYA": " ",
         "PRATEEK ONKAR": " ",
         "RAJNI YADAV": " ",

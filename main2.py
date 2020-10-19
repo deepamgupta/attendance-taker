@@ -80,7 +80,7 @@ def evaluate_attendance(present_students_string):
         "ayush karma": " ",
         "bhoomika pandey": " ",
         "disha khare": " ",
-        "kamini singh chauhan ": " ",
+        "kamini singh chauhan": " ",
         "prashant arjariya": " ",
         "prateek onkar": " ",
         "rajni yadav": " ",
